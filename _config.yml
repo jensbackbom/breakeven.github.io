@@ -3,7 +3,8 @@ baseurl: 'www.breakeven.nu'
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Breakeven - hyllar bolag med fina marginaler" # the name of your site, e.g. ACME Corp.
 description: "Breakeven visar upp Sveriges lönsammaste bolag!"
-paginate: 3
+paginate: 5
+permalink: /:year/:month/:day/:title:output_ext
 
 plugins:
   - jekyll-postcss
