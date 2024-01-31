@@ -1,6 +1,6 @@
 ---
 layout: post
-title: S4K Research sammanfattar sig till fantastiska vinster
+title: S4K Research gör fantastiska vinster på sammanfattningar
 image: assets/img/2024-01-22-s4k-research-artsy.png
 categories: "Tjänsteföretag"
 ---
