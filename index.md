@@ -3,6 +3,6 @@ layout: default
 title: "Happy Jekylling!"
 ---
 
-## You're ready to go!
+## Välkommen!
 
-Start developing your Jekyll website.
+Här kommer vi att prata om Sveriges mest lönsamma bolag.
