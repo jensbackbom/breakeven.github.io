@@ -3,9 +3,11 @@ baseurl: 'breakeven.github.io'
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Breakeven - hyllar bolag med fina marginaler" # the name of your site, e.g. ACME Corp.
 description: "Breakeven visar upp Sveriges lönsammaste bolag!"
+paginate: 3
 
 plugins:
   - jekyll-postcss
+  - jekyll-paginate  
   - jekyll-sitemap
   - jekyll-seo-tag
 
