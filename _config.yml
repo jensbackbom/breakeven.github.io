@@ -1,4 +1,5 @@
-url: "https://www.breakeven.nu" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://breakeven.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: 'breakeven.github.io'
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Breakeven - hyllar bolag med fina marginaler" # the name of your site, e.g. ACME Corp.
 description: "Breakeven visar upp Sveriges lönsammaste bolag!"
