@@ -10,15 +10,17 @@
         <!-- 3 column wrapper -->
         <div class="mx-auto w-full max-w-7xl grow lg:flex xl:px-2">
 
-          <div class="px-4 py-6 sm:px-6 lg:pl-8 xl:flex-1 xl:pl-6">
+          <div class="px-4 py-4 sm:px-6 lg:pl-8 xl:flex-1 xl:pl-6 pb-24">
             <!-- Main area -->
 
            {{ content }} 
 
           </div>
 
-          <div class="shrink-0 border-t border-gray-200 px-4 py-6 sm:px-6 lg:w-72 lg:border-l lg:border-t-0 lg:pr-8 xl:pr-6">
+          <div class="shrink-0 border-t border-gray-200 px-4 sm:px-6 py-2 lg:w-72 lg:border-l lg:border-t-0 lg:pr-8 xl:pr-6">
             <!-- Right column area -->
+            {% include mid_column.html %}
+            <!--
             <x-placeholder message="Main area">
               <div class="relative h-[367px] overflow-hidden rounded-xl border border-dashed border-gray-400 opacity-75 xl:h-[608px]">
                 <svg class="absolute inset-0 h-full w-full stroke-gray-900/10" fill="none">
@@ -31,10 +33,11 @@
                 </svg>
               </div>
             </x-placeholder>
+            -->
           </div>
 
-          <div class="shrink-0 border-t border-gray-200 px-4 py-6 sm:px-6 lg:w-72 lg:border-l lg:border-t-0 lg:pr-8 xl:pr-6">
-            <!-- Right column area -->
+          <div class="shrink-0 border-t border-gray-200 px-4 py-2 sm:px-6 lg:w-72 lg:border-l lg:border-t-0 lg:pr-8 xl:pr-6">
+            <!--        
             <x-placeholder message="Main area">
               <div class="relative h-[367px] overflow-hidden rounded-xl border border-dashed border-gray-400 opacity-75 xl:h-[608px]">
                 <svg class="absolute inset-0 h-full w-full stroke-gray-900/10" fill="none">
@@ -47,9 +50,12 @@
                 </svg>
               </div>
             </x-placeholder>
+            -->
 
             <aside class="sticky top-8 hidden w-100 shrink-0 xl:block">
-            <!-- Right column area -->
+            <!-- Banner area -->
+            {% include banners.html %}
+            <!--
             <x-placeholder message="Main area">
               <div class="relative h-[367px] overflow-hidden rounded-xl border border-dashed border-gray-400 opacity-75 xl:h-[608px]">
                 <svg class="absolute inset-0 h-full w-full stroke-gray-900/10" fill="none">
@@ -62,6 +68,7 @@
                 </svg>
               </div>
             </x-placeholder>
+            -->
             </aside>
 
 
@@ -69,6 +76,11 @@
         </div>
       </div>
 
-    </div>        
+    </div>  
+
+
+  {% include footer.html %}
+
+
   </body>
 </html>
